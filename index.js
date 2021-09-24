@@ -42,7 +42,7 @@ function showNotes() {
     if (notesObj.length != 0) {
         notesElm.innerHTML = html;
     } else {
-        notesElm.innerHTML = `Nothing to show! Use "Add a Note" section above to add notes.`;
+        notesElm.innerHTML = `Nothing to show yet! Click on "Add a Note" to add notes.`;
     }
 }
 
